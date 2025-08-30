@@ -60,6 +60,7 @@ document.addEventListener("DOMContentLoaded",()=>{ if(document.getElementById("m
 
 
 function logout() {
-  localStorage.removeItem("loggedInUser"); // agar tum login user store karte ho
-  window.location.href = "index.html"; // login page pe wapas bhej do
+  localStorage.removeItem("loggedInUser"); 
+  window.location.href = "index.html"; // 
 }
+
