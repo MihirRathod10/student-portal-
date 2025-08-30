@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Main Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="marquee"><span id="marqueeText" data-speed="120">Welcome to our University</span></div>
+  
+  <div class="page-container">
+    <h2 style="text-align:center;">Main Menu</h2>
+    <div class="card-container">
+      <div class="card" onclick="location.href='course.html'">Course</div>
+      <div class="card" onclick="location.href='timetable.html'">Time Table</div>
+      <div class="card" onclick="location.href='syllabus.html'">Syllabus</div>
+      <div class="card" onclick="location.href='semester.html'">Semester</div>
+      <div class="card" onclick="location.href='faculty.html'">Faculty</div>
+      <div style="text-align:right; margin:10px;">
+  <button onclick="logout()">Logout</button>
+</div>
+
+    </div>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
