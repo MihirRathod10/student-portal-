@@ -61,6 +61,7 @@ document.addEventListener("DOMContentLoaded",()=>{ if(document.getElementById("m
 
 function logout() {
   localStorage.removeItem("loggedInUser"); 
-  window.location.href = "index.html"; // 
+  window.location.href = "index.html"; 
 }
+
 
